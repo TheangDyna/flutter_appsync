@@ -1,4 +1,4 @@
-# my_app
+# flutter_appsync
 
 A new Flutter project.
 

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/input.dart';
-import 'package:my_app/amplify_services.dart';
-import 'package:my_app/appync_services.dart';
-import 'package:my_app/request.dart';
+import 'package:flutter_appsync/input.dart';
+import 'package:flutter_appsync/amplify_services.dart';
+import 'package:flutter_appsync/appync_services.dart';
+import 'package:flutter_appsync/request.dart';
 import 'dart:convert';
-import 'package:my_app/user_model.dart';
+import 'package:flutter_appsync/user_model.dart';
 
 void main() {
   runApp(const MyApp());

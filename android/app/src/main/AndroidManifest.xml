@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.my_app">
+    package="com.example.flutter_appsync">
    <application
-        android:label="my_app"
+        android:label="flutter_appsync"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
