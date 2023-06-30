@@ -11,17 +11,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
-      - name: Set up Dart
+        
+      - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '2.x'
-          channel: 'stable'
-          with-web: true
-          enable-web: true
-
-      - name: Set up Flutter
-        run: flutter pub global activate webdev
+          flutter-version: '3.x'
 
       - name: Install dependencies
         run: flutter pub get
